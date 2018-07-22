@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0.0_Splash.unity
+    guid: 4b999791a36f54c49afffcd93ad47b48
+  - enabled: 1
+    path: Assets/Scenes/0.1_WaitingRoom.unity
+    guid: faeca11a4086e6f4db22901f24872207
+  - enabled: 1
+    path: Assets/Scenes/1.0_IntroAnimation.unity
+    guid: e2231d7f39ed34876a5d417aee50ab45
+  - enabled: 1
+    path: Assets/Scenes/1.1_CharSelect.unity
+    guid: 4346be50cb5614d619797c7b42f97d4d
+  - enabled: 1
+    path: Assets/Scenes/1.2_CharOrder.unity
+    guid: a05e0758c7e8ff445874863e63394b46
+  - enabled: 1
+    path: Assets/Scenes/1.3_InsulinInput.unity
+    guid: a5eca507ddd21374e98dc827e9012735
+  - enabled: 1
+    path: Assets/Scenes/1.5_StartTurn.unity
+    guid: ade36788c627f1145b25b4fc0f83bf2c
+  - enabled: 1
+    path: Assets/Scenes/1.5_MovingAnim.unity
+    guid: e07461676fe71504a9cd00174e635a76
+  - enabled: 1
+    path: Assets/Scenes/2.a_GameRule.unity
+    guid: 64c86146664491f4f81909565171136c
+  - enabled: 1
+    path: Assets/Scenes/3.0_GameSettings.unity
+    guid: ec70faaa3579e6d4cbdbe2f64c2fb7b6
+  - enabled: 1
+    path: Assets/Scenes/4.0_Cafeteria.unity
+    guid: 0ca3d5ff3c67b8b419e1fed07871c144
+  - enabled: 1
+    path: Assets/Scenes/4.1_FoodRandom.unity
+    guid: 20f2dfd7124aca745b827cfdb69a4023
+  - enabled: 1
+    path: Assets/Scenes/4.3_Insulin.unity
+    guid: 3dec44ea7d633424d94a978e921b3aa9
+  - enabled: 1
+    path: Assets/Scenes/5.0_Quiz.unity
+    guid: 13f590592caf1f4478e58681a74c3c8a
+  - enabled: 1
+    path: Assets/Scenes/5.1.a.1_SelectReward.unity
+    guid: 85e8658cfac22654a8a85373bbdb2738
+  - enabled: 1
+    path: Assets/Scenes/5.1_QuestionRandom.unity
+    guid: 16c039061b0627046a81e107e114971c
+  - enabled: 1
+    path: Assets/Scenes/7.0_SituaionRoom.unity
+    guid: 9eebfc6e4d53ed144b6f9c044a734719
+  - enabled: 1
+    path: Assets/Scenes/7.1_SituaionAnim.unity
+    guid: bda519f6da30a7446a577ef51e657cc7
+  - enabled: 1
+    path: Assets/Scenes/15.0_Library.unity
+    guid: 298fff213cd397a45b393232370c4389
+  - enabled: 1
+    path: Assets/Scenes/15.1_LibraryAnim.unity
+    guid: 42353fdbe63f5d94cbe76e2a75858ae9
+  - enabled: 1
+    path: Assets/Scenes/SceneArrive.unity
+    guid: 76ad3f335929a464da4230dab331d7c1
+  - enabled: 1
+    path: Assets/Scenes/Dochack.unity
+    guid: 26e5f82f9f4a62f419555b305d1e9fa7
+  - enabled: 1
+    path: Assets/Scenes/1.4_allCandy.unity
+    guid: 58e6e30d11e12b8428fa3c4b5437594f
+  m_configObjects: {}
