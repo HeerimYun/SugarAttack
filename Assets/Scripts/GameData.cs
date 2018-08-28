@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 /**
  * 게임 관련 데이터 입/출력 스크립트
+ * 180828 수정: 혈당 그래프를 그리기 위해 혈당을 리스트로 변경
  */
 public class GameData : MonoBehaviour {
 
@@ -72,6 +73,7 @@ public class GameData : MonoBehaviour {
     public const int VICTOR = 3;
 
     public static bool isCharSelected = false;
+
     //********진행 관련 변수*********//
     //게임 참여중인 플레이어 리스트
     public static string[] playerList;
@@ -129,6 +131,24 @@ public class GameData : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 	}
+
+    /**
+     * 이름으로 캐릭터 객체 가져오기
+     */
+     public static Character GetCharByName(string name)
+    {
+        Character foundChar = null;
+
+        for (int i = 0; i < character.Length; i++)
+        {
+            //찾는 이름의 해당 캐릭터이면,
+            if (character[i].name.Equals(name) || character[i].kName.Equals(name))
+            {
+                foundChar = character[i];
+            }
+        }
+        return foundChar;
+    }
 
     /**
      * 현재 차례인 플레이어의 이름

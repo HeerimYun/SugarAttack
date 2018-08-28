@@ -43,11 +43,10 @@ public class InsulinInput : MonoBehaviour {
         for(int i=0; i<insulinVal.Length; i++)
         {
             insulinVal[i] = GameObject.Find("InsulinToggle" + (i + 1));
+            //Debug.Log(insulinVal[i]);
         }
-        //insulinVal[2].GetComponent<Image>().sprite = Resources.Load<Sprite>("InsulinSet/"+"insulin_push_30");
-        
 
-        //인슐린 용량 저장 배열을 플레이어 수만큼 크기 지정ㅁ
+        //인슐린 용량 저장 배열을 플레이어 수만큼 크기 지정
         insulinAmount = new int[GameData.playerCount];
 
 		//이름 적기
@@ -56,8 +55,6 @@ public class InsulinInput : MonoBehaviour {
 		playerImage = GameObject.Find("playerImage");
 
         //요소 가져오기
-        //insulinSection = GameObject.Find("CharacterSection");
-        //insulinInput = new GameObject[GameData.playerCount];
         nextBtn = GameObject.Find("InputDoneBtn");
 
         //캐릭터별 인슐린 선택 나오기
@@ -71,14 +68,16 @@ public class InsulinInput : MonoBehaviour {
     {
 		//이름 지정 
 		currentTarget.GetComponent<Text>().text = GameData.pStrList[page];
-		//캐릭터 이미지 지
+		//캐릭터 이미지
 		playerImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("1_Char/" + GameData.playerList[page]);
-		
     }
 
+    /**
+     * 선택완료 버튼
+     */
     public void OnClickNextBtn()
     {
-		//플레이어 리스트의 인슐린 양을 다 받았다 -> 다음 페이지로
+		//플레이어 리스트의 수 만큼 인슐린 양을 다 받았다 -> 다음 페이지로
 		if((page+1) == GameData.playerList.Length){
 			PageMove.OnClickInputDoneBtn();
 		} else {
@@ -89,23 +88,19 @@ public class InsulinInput : MonoBehaviour {
 
     /**
      * 6개 토글 누를 때 마다 값 변경
+     * 누른 토글 버튼에 대해서는 해당 값으로 변수를 채우고,
+     * 다음 버튼을 누를 시 값을 넘김
      */
-     /*
-    public void OnClickInsulinVal()
-    {
-        //켜진 것을 체크하고, 이미지도 정돈
-        for (int i=0; i<insulinVal.Length; i++)
+     public void OnClickInsulinBtn()
+    {  
+        for (int i=0; i<6; i++)
         {
-            if (insulinVal[i].GetComponent<Toggle>().isOn)  //토글이기 때문에 한번만 걸릴 것임
+            if (insulinVal[i].GetComponent<Toggle>().isOn) //켜져있으면,
             {
-                GameData.GetCurrentCharacter().inputInsulin = 20 + (5*i); //20~45 중 하나가 들어가게 됌
-                //눌린 이미지로 변경
-                insulinVal[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("InsulinSet/" + "insulin_push_" + (20+(5*i)));
-            }
-            else //안 눌린 버튼 세팅
-            {
-                insulinVal[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("InsulinSet/" + "insulin_default_" + (20 + (5 * i)));
+                //해당 캐릭터의 인슐린 인풋 설정
+                GameData.GetCharByName(currentTarget.GetComponent<Text>().text).inputInsulin = 20 + (i*5);
+                Debug.Log(currentTarget.GetComponent<Text>().text + "의 전체 인슐린 : " + GameData.GetCharByName(currentTarget.GetComponent<Text>().text).inputInsulin);
             }
         }
-    }*/
+    }
 }
