@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/1.5_StartTurn.unity
+- path: Assets/Scenes/5.0_Quiz2.unity
   isLoaded: 1
   isActive: 1
