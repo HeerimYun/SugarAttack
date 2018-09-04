@@ -10,7 +10,6 @@ public class QuizScene2 : MonoBehaviour {
 
     GameObject question; //문제 부분
     public static bool isAnswer = false; //정답 여부
-    bool playerAnswer = false; //입력 받은 정답
 
     GameObject[] answer = new GameObject[4]; //선택지
     GameObject checkAnswerBtn; //정답 확인 버튼
