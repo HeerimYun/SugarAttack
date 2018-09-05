@@ -30,8 +30,11 @@ public class AllCandy : MonoBehaviour {
         //시간 지나면 씬 넘기기
         if(currentTime > duraition)
         {
-            //startTurn으로 보냄
-            SceneManager.LoadScene(6);
+            //startTurn으로 보냄 (프로토타입)
+            //SceneManager.LoadScene(6);
+
+            //1.5_Roulette으로 보냄
+            SceneManager.LoadScene(7);
         }
 	}
 }

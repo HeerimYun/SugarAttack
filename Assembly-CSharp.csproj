@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\QuizScene.cs" />
     <Compile Include="Assets\Scripts\QuizScene2.cs" />
     <Compile Include="Assets\Scripts\QuizScene3.cs" />
+    <Compile Include="Assets\Scripts\RouletteSpin.cs" />
     <Compile Include="Assets\Scripts\SceneArrive.cs" />
     <Compile Include="Assets\Scripts\ShowTurn.cs" />
     <Compile Include="Assets\Scripts\SituationRoom.cs" />

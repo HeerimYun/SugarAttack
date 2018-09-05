@@ -27,6 +27,12 @@ public class ShowTurn : MonoBehaviour {
             curCharImg.GetComponent<Image>().sprite = Resources.Load<Sprite>("1_Char/" + GameData.GetCurrentPlayerName());
         }
 
+        //룰렛 순서 관련 이름 세팅
+        if (GameObject.Find("RTurnName") != null)
+        {
+            GameObject.Find("RTurnName").GetComponent<Text>().text = GameData.GetCurrentCharacter().kName;
+        }
+
         arrow1 = GameObject.Find ("p1TurnArrow");
 		arrow2 = GameObject.Find ("p2TurnArrow");
 		arrow3 = GameObject.Find ("p3TurnArrow");

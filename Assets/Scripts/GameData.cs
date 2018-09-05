@@ -293,9 +293,7 @@ public class GameData : MonoBehaviour {
 
         character[currentIndex].isCurrent = true;
 
-
-
-        SceneManager.LoadScene(6); //룰렛 돌리는 화면으로 보내기
+        SceneManager.LoadScene(6); //룰렛 돌리는 화면으로 보내기 -> 0906: SceneManager.LoadScene(7); 로 바꿔야 하나, 아직 미해결 문제있음
     }
 }
 

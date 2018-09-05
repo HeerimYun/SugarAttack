@@ -188,6 +188,3 @@ public class PageMove : MonoBehaviour {
         }
     }
 }
-
-//깃 연동 테스트용 주석... 지워도 무방함
-//testtest
