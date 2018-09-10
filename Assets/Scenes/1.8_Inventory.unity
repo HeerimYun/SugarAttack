@@ -347,65 +347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b33b2e663e78774c9f0c9af55018725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.4117647, g: 0.4117647, b: 0.4117647, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ff89305a8a736214f96261245ba2082a, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_points:
-  - {x: 0, y: 27.866667}
-  - {x: 14.000853, y: 28.829754}
-  - {x: 31.748411, y: 29.35317}
-  - {x: 52.65109, y: 29.688152}
-  - {x: 76.11731, y: 30.085953}
-  - {x: 101.55548, y: 30.797794}
-  - {x: 128.37401, y: 32.074936}
-  - {x: 155.98132, y: 34.168594}
-  - {x: 183.78584, y: 37.330025}
-  - {x: 211.19594, y: 41.810467}
-  - {x: 237.62012, y: 47.86116}
-  - {x: 262.46667, y: 55.733334}
-  - {x: 286.3273, y: 66.17025}
-  - {x: 310.1879, y: 79.34986}
-  - {x: 334.04852, y: 94.675476}
-  - {x: 357.90912, y: 111.550415}
-  - {x: 381.7697, y: 129.37796}
-  - {x: 405.6303, y: 147.56143}
-  - {x: 429.4909, y: 165.50412}
-  - {x: 453.35156, y: 182.60938}
-  - {x: 477.2121, y: 198.28043}
-  - {x: 501.07278, y: 211.92068}
-  - {x: 524.93335, y: 222.93333}
-  - {x: 549.7799, y: 231.60112}
-  - {x: 576.20404, y: 238.73003}
-  - {x: 603.6142, y: 244.50853}
-  - {x: 631.4187, y: 249.12508}
-  - {x: 659.026, y: 252.76804}
-  - {x: 685.84454, y: 255.6259}
-  - {x: 711.2827, y: 257.88705}
-  - {x: 734.74896, y: 259.73996}
-  - {x: 755.6516, y: 261.373}
-  - {x: 773.3992, y: 262.97467}
-  - {x: 787.4, y: 264.73334}
-  LineThickness: 24
-  UseMargins: 0
-  Margin: {x: 0, y: 0}
-  relativeSize: 0
-  LineList: 0
-  LineCaps: 0
-  LineJoins: 0
-  BezierMode: 0
-  BezierSegmentsPerCurve: 10
 --- !u!222 &234385895
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -773,33 +714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b33b2e663e78774c9f0c9af55018725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_points:
-  - {x: 0, y: 0}
-  - {x: 787.4, y: 0}
-  LineThickness: 0
-  UseMargins: 0
-  Margin: {x: 0, y: 0}
-  relativeSize: 0
-  LineList: 0
-  LineCaps: 1
-  LineJoins: 0
-  BezierMode: 0
-  BezierSegmentsPerCurve: 10
 --- !u!222 &327973071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -853,31 +767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b33b2e663e78774c9f0c9af55018725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_points: []
-  LineThickness: 0
-  UseMargins: 0
-  Margin: {x: 0, y: 0}
-  relativeSize: 0
-  LineList: 1
-  LineCaps: 0
-  LineJoins: 0
-  BezierMode: 0
-  BezierSegmentsPerCurve: 10
 --- !u!222 &347891691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -981,7 +870,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -393.7, y: -167.2}
-  m_SizeDelta: {x: 8, y: 16}
+  m_SizeDelta: {x: 7.0504, y: 14.1008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401293948
 MonoBehaviour:
@@ -1559,7 +1448,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -393.7, y: 55.733334}
-  m_SizeDelta: {x: 24, y: 16}
+  m_SizeDelta: {x: 21.1512, y: 14.1008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471336587
 MonoBehaviour:
@@ -1781,10 +1670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a908365b12afcfb4c9097f48573cee1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseDuration: 0.25
-  markerLabel: {fileID: 882820196}
-  background: {fileID: 490669610}
-  interactionType: 0
 --- !u!114 &495466988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2358,7 +2243,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -393.7, y: 167.2}
-  m_SizeDelta: {x: 24, y: 16}
+  m_SizeDelta: {x: 21.1512, y: 14.1008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678832655
 MonoBehaviour:
@@ -4192,79 +4077,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1232244217015c4c8d5c8e7ed379d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chartData:
-  - dataLineColor:
-      serializedVersion: 2
-      rgba: 4285098345
-    dataLineSprite: {fileID: 21300000, guid: ff89305a8a736214f96261245ba2082a, type: 3}
-    dataFillColor:
-      serializedVersion: 2
-      rgba: 14606046
-    dataFillTexture: {fileID: 0}
-    markerSprite: {fileID: 0}
-    markerSize: {x: 0, y: 0}
-    markerColor: {r: 0.41176474, g: 0.41176474, b: 0.41176474, a: 0}
-    dataLineWidth: 24
-    data:
-    - {x: 0, y: 50}
-    - {x: 1, y: 60}
-    - {x: 2, y: 120}
-    - {x: 3, y: 135}
-    isDataLineColorSet: 1
-  smoothData: 1
-  dataSmoothing: 10
-  fillAreaUnderLine: 0
-  showLineCaps: 0
-  limitDisplayedData: 0
-  minRange: 0
-  maxRange: 1
-  xMargin: 0
-  yMargin: 0
-  axesWidth: 0
-  axesColor:
-    serializedVersion: 2
-    rgba: 4278190080
-  invertXAxis: 0
-  invertYAxis: 0
-  stickXAxisToZero: 0
-  stickYAxisToZero: 0
-  showXGrid: 0
-  showYGrid: 0
-  gridColor:
-    serializedVersion: 2
-    rgba: 0
-  gridLineWidth: 0
-  xGridStep: 1
-  yGridStep: 1
-  showLabelsOnXAxis: 1
-  showLabelsOnYAxis: 1
-  minXValue: 0
-  maxXValue: 3
-  minYValue: 40
-  maxYValue: 160
-  xValuesCount: 2
-  yValuesCount: 4
-  labelsFontSize: 14
-  labelsFontColor:
-    serializedVersion: 2
-    rgba: 0
-  labelsFont: {fileID: 0}
-  xValuesPrecision: 2
-  yValuesPrecision: 2
-  xValuesOffset: 0
-  yValuesOffset: 0
-  showMarkers: 1
-  markersLabelsFontSize: 14
-  markersLabelsFontColor: {r: 1, g: 1, b: 1, a: 1}
-  markersLabelsFont: {fileID: 0}
-  markersFieldOffset: {x: 0, y: 0}
-  markersLabelsOffset: {x: 0, y: 0}
-  showValuePrefix: 0
-  valuePrefix: 
-  markersLabelsBackground: {fileID: 0}
-  markerInteractionType: 0
-  fillMaterial: {fileID: 0}
-  useCustomHandles: 0
 --- !u!224 &1168643665
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4653,10 +4465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a908365b12afcfb4c9097f48573cee1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseDuration: 0.25
-  markerLabel: {fileID: 1138358825}
-  background: {fileID: 1879957844}
-  interactionType: 0
 --- !u!114 &1193404528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4794,7 +4602,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 393.7, y: -167.2}
-  m_SizeDelta: {x: 8, y: 16}
+  m_SizeDelta: {x: 7.0504, y: 14.1008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268459984
 MonoBehaviour:
@@ -5102,7 +4910,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -393.7, y: -167.2}
-  m_SizeDelta: {x: 16, y: 16}
+  m_SizeDelta: {x: 14.1008, y: 14.1008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378113479
 MonoBehaviour:
@@ -6074,33 +5882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b33b2e663e78774c9f0c9af55018725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_points:
-  - {x: 0, y: 0}
-  - {x: 0, y: 334.4}
-  LineThickness: 0
-  UseMargins: 0
-  Margin: {x: 0, y: 0}
-  relativeSize: 0
-  LineList: 0
-  LineCaps: 1
-  LineJoins: 0
-  BezierMode: 0
-  BezierSegmentsPerCurve: 10
 --- !u!222 &1562384700
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6821,10 +6602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a908365b12afcfb4c9097f48573cee1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseDuration: 0.25
-  markerLabel: {fileID: 876672226}
-  background: {fileID: 1652206644}
-  interactionType: 0
 --- !u!114 &1741286672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7689,10 +7466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a908365b12afcfb4c9097f48573cee1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseDuration: 0.25
-  markerLabel: {fileID: 1873335297}
-  background: {fileID: 1672246127}
-  interactionType: 0
 --- !u!114 &2083793170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7761,7 +7534,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -393.7, y: -55.733334}
-  m_SizeDelta: {x: 16, y: 16}
+  m_SizeDelta: {x: 14.1008, y: 14.1008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2089992245
 MonoBehaviour:
