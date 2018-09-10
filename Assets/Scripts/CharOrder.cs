@@ -84,7 +84,7 @@ public class CharOrder : MonoBehaviour {
             player[i].transform.localScale += new Vector3(0, 1, 0); //감춰뒀던 것 펼치기
             //pText[i].text = pNameList[i]; //Text 나타내기
             pText[i].text = GameData.pStrList[i]; //한글이름으로 나타내기 
-            pImg[i].sprite = Resources.Load<Sprite>("1_Char/" + pNameList[i]); //이미지 나타내기
+            pImg[i].sprite = Resources.Load<Sprite>("Characters/" + pNameList[i] + "/idle/" + pNameList[i] + "_idle_01"); //이미지 나타내기
         }
 
         //몇명인지 파악하고, case로 나누기

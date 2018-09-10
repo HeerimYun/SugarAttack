@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/1.8_Inventory.unity
+- path: Assets/Scenes/4.1_FoodRandom.unity
   isLoaded: 1
   isActive: 1
